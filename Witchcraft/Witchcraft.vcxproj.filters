@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{7c651a46-0728-4860-8079-a936ee7d10fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sys">
+      <UniqueIdentifier>{244b7858-54e2-4daa-b0ad-a4eb3fc1d353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{2dad7da8-4eaa-4024-b0ac-720e9fd896ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependancies">
+      <UniqueIdentifier>{1dc24d9d-10e5-4680-a4c8-7c42d8a98e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependancies\glew-2.1.0">
+      <UniqueIdentifier>{25a5964a-2b8a-44e4-9cd1-384851ee046a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependancies\glew-2.1.0\src">
+      <UniqueIdentifier>{0513de5a-2d57-46ab-8a9c-a701631ee238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependancies\pugixml-1.9">
+      <UniqueIdentifier>{3cb6bba8-2558-4682-8231-6a5c400032a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependancies\pugixml-1.9\src">
+      <UniqueIdentifier>{2d0e6a4a-cb3d-481c-b64e-d4bd00d39da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{68207241-a0ec-4b9a-b19b-07bd871027cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math">
+      <UniqueIdentifier>{7700a595-879f-44ad-8359-9e39af964999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\shaders_glsl">
+      <UniqueIdentifier>{a4ef94b7-a514-4c65-bac0-9259486343fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics\shaders_glsl\inc">
+      <UniqueIdentifier>{3867b407-5690-455d-8c8b-6cf80202a964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependancies\other">
+      <UniqueIdentifier>{c6375e48-7cfb-4895-90e7-49ab3aa7a318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scripting">
+      <UniqueIdentifier>{9b4eb23c-c625-4b20-a768-ce30c1a52262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\scene">
+      <UniqueIdentifier>{846154ff-4f71-45a6-8227-f567aea9b575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem">
+      <UniqueIdentifier>{fa9a3e66-f6ce-4360-9370-11e341c94166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math\lua">
+      <UniqueIdentifier>{1a9c2c04-5f2f-4dcf-91d8-801b865d95de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics">
+      <UniqueIdentifier>{9daaa5cb-41b7-4d29-9a1d-1503b3316d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{6d394a2f-7fe6-412a-a57e-4017c7d0a5af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\window_win32.cpp">
+      <Filter>src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="dependancies\glew-2.1.0\src\glew.c">
+      <Filter>dependancies\glew-2.1.0\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\printlog.cpp">
+      <Filter>src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\paths.cpp">
+      <Filter>src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\renderer_gl.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\timer_win32.cpp">
+      <Filter>src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\half.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\mat4.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader_gl.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\luasystem.cpp">
+      <Filter>src\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\script.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\scene_lua.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\transform_lua.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\name_lua.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\script_lua.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\archive.cpp">
+      <Filter>src\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\file_manager.cpp">
+      <Filter>src\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\filesystem\module.cpp">
+      <Filter>src\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\renderer_lua.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\input.cpp">
+      <Filter>src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\lua\quat_lua.cpp">
+      <Filter>src\math\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\lua\vec2_lua.cpp">
+      <Filter>src\math\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\lua\vec3_lua.cpp">
+      <Filter>src\math\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\lua\vec4_lua.cpp">
+      <Filter>src\math\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\texture_gl.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="dependancies\other\stb_image_impl.cpp">
+      <Filter>dependancies\other</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\material.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\colors.cpp">
+      <Filter>src\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\geometry_gl.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\vertex_gl.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\model.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\model_xml.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\renderable.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\renderable_lua.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\skybox.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shadow_gl.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="dependancies\pugixml-1.9\src\pugixml.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\animation_controller.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\animator_lua.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\animator.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\physics_system.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\physical.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\physical_lua.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\debug_physics_gl.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\layers.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\collider.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\font.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\text.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\guilayer.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\LooplessSizeMove.cpp">
+      <Filter>src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\text_wrap.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\dialogue.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\texture.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\physics_lua.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\scene.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\entity.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\name.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\transform.cpp">
+      <Filter>src\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\sys\input.h">
+      <Filter>src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\bitfield.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="dependancies\pugixml-1.9\src\pugiconfig.hpp">
+      <Filter>dependancies\pugixml-1.9\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependancies\pugixml-1.9\src\pugixml.hpp">
+      <Filter>dependancies\pugixml-1.9\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\stringhelper.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\appconfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\printlog.h">
+      <Filter>src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\paths.h">
+      <Filter>src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\timer.h">
+      <Filter>src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\aabb.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\half.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\mat3.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\mat4.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\quat.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vec3.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vec4.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vmath.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vmath_includes.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\window.h">
+      <Filter>src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\renderer.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shader.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\camera.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\luasystem.h">
+      <Filter>src\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\structofarrays.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\entity.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\component.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\transform.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\name.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\scene.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\script.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\filesystem\archive.h">
+      <Filter>src\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\filesystem\file.h">
+      <Filter>src\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\filesystem\file_manager.h">
+      <Filter>src\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\filesystem\module.h">
+      <Filter>src\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\xmlhelper.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\lua\vmath_lua.h">
+      <Filter>src\math\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\texture.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="dependancies\other\stb_image.h">
+      <Filter>dependancies\other</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\material.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\colors.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\geometry.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\vertex.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\model.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\renderable.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\skybox.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\light.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\shadow.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\animation_controller.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\animator.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\physics_system.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\collider.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\physical.h">
+      <Filter>src\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\debug_physics.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\layers.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\physics\overlap_list.h">
+      <Filter>src\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\font.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\text.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\guilayer.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\LooplessSizeMove.h">
+      <Filter>src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\text_wrap.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\dialogue.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mainloop.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vec2.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\fixedstring.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\graphics\shaders_glsl\inc\uniform_buffer_camera.glsl">
+      <Filter>src\graphics\shaders_glsl\inc</Filter>
+    </None>
+    <None Include="src\scripting\events.lua">
+      <Filter>src\scripting</Filter>
+    </None>
+    <None Include="src\scripting\sandbox.lua">
+      <Filter>src\scripting</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\debugdraw.glsl">
+      <Filter>src\graphics\shaders_glsl</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\debugtext.glsl">
+      <Filter>src\graphics\shaders_glsl</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\inc\blinn_phong.brdf">
+      <Filter>src\graphics\shaders_glsl\inc</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\inc\lighting.glsl">
+      <Filter>src\graphics\shaders_glsl\inc</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\standard_material.glsl">
+      <Filter>src\graphics\shaders_glsl</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\skybox.glsl">
+      <Filter>src\graphics\shaders_glsl</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\shadow.glsl">
+      <Filter>src\graphics\shaders_glsl</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\inc\skeletal_animation.glsl">
+      <Filter>src\graphics\shaders_glsl\inc</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\inc\quaternion.glsl">
+      <Filter>src\graphics\shaders_glsl\inc</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\inc\extramath.glsl">
+      <Filter>src\graphics\shaders_glsl\inc</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\text_bm.glsl">
+      <Filter>src\graphics\shaders_glsl</Filter>
+    </None>
+    <None Include="src\graphics\shaders_glsl\text_msdf.glsl">
+      <Filter>src\graphics\shaders_glsl</Filter>
+    </None>
+  </ItemGroup>
+</Project>

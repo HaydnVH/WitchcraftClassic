@@ -1,0 +1,10 @@
+<material>
+	<color rgb="fff"/>
+	<specular>
+		<smoothness>16</smoothness>
+		<intensity>1</intensity>
+	</specular>
+	<flags>
+		<casts_shadows/>
+	</flags>
+</material>

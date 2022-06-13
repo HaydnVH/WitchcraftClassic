@@ -1,0 +1,40 @@
+<material>
+	<textures>
+		<diffuse>
+			<image>materials/lancer/body_d.tga</image>
+			<filtering>
+				<min>linear</min>
+				<mag>linear</mag>
+				<aniso>8</aniso>
+			</filtering>
+			<wrapping>
+				<s>repeat</s>
+				<t>repeat</t>
+			</wrapping>
+			<generate_mipmaps/>
+		</diffuse>
+		<normal>
+			<image>materials/lancer/body_n.tga</image>
+			<filtering>
+				<min>linear</min>
+				<mag>linear</mag>
+				<aniso>8</aniso>
+			</filtering>
+			<wrapping>
+				<s>repeat</s>
+				<t>repeat</t>
+			</wrapping>
+			<generate_mipmaps/>
+		</normal>
+	</textures>
+
+	<specular>
+		<smoothness>128</smoothness>
+		<intensity>2</intensity>
+	</specular>
+	
+	<flags>
+		<casts_shadows/>
+		<skinned/>
+	</flags>
+</material>

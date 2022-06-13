@@ -1,0 +1,27 @@
+<material>
+	<textures>
+		<diffuse>
+			<image>materials/unitychan/skin.tga</image>
+			<filtering>
+				<min>linear</min>
+				<mag>linear</mag>
+				<aniso>8</aniso>
+			</filtering>
+			<wrapping>
+				<s>repeat</s>
+				<t>repeat</t>
+			</wrapping>
+			<generate_mipmaps/>
+		</diffuse>
+	</textures>
+
+	<specular>
+		<smoothness>20</smoothness>
+		<intensity>0.666</intensity>
+	</specular>
+	
+	<flags>
+		<casts_shadows/>
+		<skinned/>
+	</flags>
+</material>

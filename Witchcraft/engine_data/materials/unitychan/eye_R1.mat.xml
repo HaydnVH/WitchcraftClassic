@@ -1,0 +1,28 @@
+<material>
+	<textures>
+		<diffuse>
+			<image>materials/unitychan/eye_iris_r.tga</image>
+			<filtering>
+				<min>linear</min>
+				<mag>linear</mag>
+				<aniso>8</aniso>
+			</filtering>
+			<wrapping>
+				<s>repeat</s>
+				<t>repeat</t>
+			</wrapping>
+			<generate_mipmaps/>
+		</diffuse>
+	</textures>
+
+	<specular>
+		<smoothness>128</smoothness>
+		<intensity>2</intensity>
+	</specular>
+	
+	<flags>
+		<casts_shadows/>
+		<transparent/>
+		<skinned/>
+	</flags>
+</material>

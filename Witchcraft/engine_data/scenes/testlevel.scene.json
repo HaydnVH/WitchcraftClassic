@@ -1,0 +1,26 @@
+{
+	"skybox": "textures/envmap_stormydays/stormydays",
+	"entrances": {
+		"default": {"position": [0, 0, 0], "rotation": [0, 0, -90]}
+	},
+	"entities": {
+		"1": {"name": "Player",
+			"transform": {"position": [0, 0, 9], "rotation": [0, 0, -90]},
+			"model": "unitychan2.wcm.xml",
+			"animator": {"import": ["unitychan2_Idle.wcm.xml", "unitychan2_Walk.wcm.xml", "unitychan2_RunF.wcm.xml"]},
+			"collider": {"shape": "capsule", "radius": 0.333, "height": 0.888, "offset": [0, 0, 0.775]},
+			"rigidbody": {"mass": 0, "kinematic": true, "trigger": false, "group": "player", "mask": ["player mask"]},
+			"scripts": {"player_controller": {"camera_ref": "Camera"}}
+		},
+		"2": {"name": "Camera",
+			"transform": {},
+			"scripts": {"player_camera": {"player_ref": "Player"}}
+		},
+		"3": {"name": "Floor",
+			"transform": {},
+			"model": "test_level.wcm.xml",
+			"collider": "create_from_model",
+			"rigidbody": {"mass": 0, "kinematic": false, "trigger": false, "group": "scenery", "mask": ["scenery mask"]}
+		}
+	}
+}

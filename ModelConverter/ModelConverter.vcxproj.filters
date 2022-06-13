@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d11d3028-1a61-4c3c-9a08-2dd32eb720a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependancies">
+      <UniqueIdentifier>{8b068750-cc7e-49a5-a6ff-21bd5c5cf6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\sys">
+      <UniqueIdentifier>{5db48c24-10ac-4bcc-a5e6-f6484ebeec04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{d2e32ac8-03e6-4692-977e-ca64ea27e39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tools">
+      <UniqueIdentifier>{d8fc2415-b788-41d4-9979-0056021fe5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\filesystem">
+      <UniqueIdentifier>{14cc7a58-66d0-4d5f-98de-0b570854b628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependancies\pugixml-1.9">
+      <UniqueIdentifier>{95a02c73-f266-4a04-8739-01e03997bc30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependancies\pugixml-1.9\src">
+      <UniqueIdentifier>{1a23861b-fe4a-44b7-b654-9f93b8163eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\math">
+      <UniqueIdentifier>{2b62c687-81ae-4d14-824f-ff21a8836d2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Witchcraft\src\graphics\model_fbx.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Witchcraft\src\graphics\model_xml.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Witchcraft\src\graphics\model.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Witchcraft\src\sys\printlog.cpp">
+      <Filter>src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Witchcraft\src\sys\paths.cpp">
+      <Filter>src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Witchcraft\dependancies\pugixml-1.9\src\pugixml.cpp">
+      <Filter>dependancies\pugixml-1.9\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Witchcraft\src\math\half.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Witchcraft\src\math\mat4.cpp">
+      <Filter>src\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Witchcraft\src\physics\collider.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Witchcraft\src\graphics\model.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\tools\structofarrays.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\tools\xmlhelper.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\sys\printlog.h">
+      <Filter>src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\sys\paths.h">
+      <Filter>src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\filesystem\file.h">
+      <Filter>src\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\dependancies\pugixml-1.9\src\pugiconfig.hpp">
+      <Filter>dependancies\pugixml-1.9\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\dependancies\pugixml-1.9\src\pugixml.hpp">
+      <Filter>dependancies\pugixml-1.9\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\math\aabb.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\math\half.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\math\mat3.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\math\mat4.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\math\quat.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\math\vec2.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\math\vec3.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\math\vec4.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\math\vmath.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\math\vmath_includes.h">
+      <Filter>src\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mc_appconfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Witchcraft\src\tools\stringhelper.h">
+      <Filter>src\tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

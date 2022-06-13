@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<model>
+	<geometry>
+		<num_vertices>24</num_vertices>
+		<num_indices>36</num_indices>
+		<vertex_data>
+			<positions>1 1 -1 1 -1 -1 -1 -1 -1 -1 1 -1 1 1 1 -1 1 1 -1 -1 1 1 -1 1 1 1 -1 1 1 1 1 -1 1 1 -1 -1 1 -1 -1 1 -1 1 -1 -1 1 -1 -1 -1 -1 -1 -1 -1 -1 1 -1 1 1 -1 1 -1 1 1 1 1 1 -1 -1 1 -1 -1 1 1 </positions>
+			<normals>0 0 -128 0 0 -128 0 0 -128 0 0 -128 0 0 127 0 0 127 0 0 127 0 0 127 127 0 0 127 0 0 127 0 0 127 0 0 0 -128 0 0 -128 0 0 -128 0 0 -128 0 -128 0 0 -128 0 0 -128 0 0 -128 0 0 0 127 0 0 127 0 0 127 0 0 127 0 </normals>
+			<texcoords>0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 </texcoords>
+		</vertex_data>
+		<triangle_data>0 1 2 0 2 3 4 5 6 4 6 7 8 9 10 8 10 11 12 13 14 12 14 15 16 17 18 16 18 19 20 21 22 20 22 23 </triangle_data>
+	</geometry>
+	<meshes>
+		<num_meshes>1</num_meshes>
+		<mesh index="0">
+			<material>test</material>
+			<start>0</start>
+			<end>35</end>
+		</mesh>
+	</meshes>
+</model>

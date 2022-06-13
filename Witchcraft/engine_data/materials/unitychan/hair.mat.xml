@@ -1,0 +1,53 @@
+<material>
+	<textures>
+		<diffuse>
+			<image>materials/unitychan/hair.tga</image>
+			<filtering>
+				<min>linear</min>
+				<mag>linear</mag>
+				<aniso>8</aniso>
+			</filtering>
+			<wrapping>
+				<s>repeat</s>
+				<t>repeat</t>
+			</wrapping>
+			<generate_mipmaps/>
+		</diffuse>
+		<normal>
+			<image>materials/unitychan/hair_n.tga</image>
+			<filtering>
+				<min>linear</min>
+				<mag>linear</mag>
+				<aniso>8</aniso>
+			</filtering>
+			<wrapping>
+				<s>repeat</s>
+				<t>repeat</t>
+			</wrapping>
+			<generate_mipmaps/>
+		</normal>
+		<specular>
+			<image>materials/unitychan/hair_s.tga</image>
+			<filtering>
+				<min>linear</min>
+				<mag>linear</mag>
+				<aniso>8</aniso>
+			</filtering>
+			<wrapping>
+				<s>repeat</s>
+				<t>repeat</t>
+			</wrapping>
+			<generate_mipmaps/>
+		</specular>
+	</textures>
+
+	<specular>
+		<smoothness>256</smoothness>
+		<intensity>2</intensity>
+	</specular>
+	
+	<flags>
+		<casts_shadows/>
+		<skinned/>
+	</flags>
+</material>

@@ -1,0 +1,13 @@
+<scene id="TestLevel">
+	<skybox path="textures/envmap_stormydays/stormydays"/>
+	<entity_names>
+	</entity_names>
+	<component_transforms>
+	</component_transforms>
+	<component_renderables>
+	</component_renderables>
+	<component_colliders>
+	</component_colliders>
+	<component_scripts>
+	</component_scripts>
+</scene>

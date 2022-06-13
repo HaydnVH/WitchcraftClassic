@@ -1,0 +1,30 @@
+<dialogue>
+	<greeting id="0"/>
+	<node id="0">
+		<question>Hello there! You're not from around these parts, are you?</question>
+		<answer id="1">No, I just arrived today.</answer>
+		<answer id="2">I've lived here all my life!</answer>
+		<answer id="3">Go die in a fire.</answer>
+		<answer id="4">Tell me about...</answer>
+	</node>
+	<node id="1">
+		<message>You can get a warm meal and some rest at the inn, but stay away from the 'special' sausage.</message>
+		<goodbye/>
+	</node>
+	<node id="2">
+		<message>Are you sure? I've never seen you before...</message>
+		<goodbye/>
+	</node>
+	<node id="3">
+		<message>Well fuck you too I guess.</message>
+		<goodbye/>
+	<node>
+	<node id="4">
+		<question>...</question>
+		<answer id="5">This town.</answer>
+		<answer id="6">Rumors.</answer>
+		<answer id="7">A place to rest.</answer>
+		<answer id="8">Jobs.</answer>
+		<answer id="9">Yourself.</answer>
+	</node>
+</dialogue>

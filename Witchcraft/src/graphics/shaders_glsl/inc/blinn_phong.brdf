@@ -1,0 +1,29 @@
+R"==(
+vec3 CalcBaseLight(	vec3 normal, 
+					vec3 light_dir,
+					vec3 view_dir,
+					vec3 diffuse_color,
+					vec3 ambient_color,
+					vec3 specular,
+					float smoothness,
+					float shadow_factor)
+{
+	// Ambient Lighting
+	vec3 ambient_light = ambient_color;
+	
+	// Diffuse Lighting
+	float NdotL = dot(normal, light_dir);
+	vec3 diffuse_light = diffuse_color * max(0, NdotL);
+	
+	// Calculate the half vector between the light vector and the view vector.
+	vec3 half_vector = normalize(light_dir + view_dir);
+	
+	// Specular Lighting
+	float NdotH = dot(normal, half_vector);
+	NdotH = max(0, NdotH);
+	float specular_factor = NdotH / (smoothness - (smoothness * NdotH) + NdotH);
+	vec3 specular_light = specular * specular_factor * diffuse_color;
+	
+	return ambient_light + (shadow_factor * (diffuse_light + specular_light));
+}
+)=="

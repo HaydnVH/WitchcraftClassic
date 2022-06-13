@@ -1,0 +1,15 @@
+<skybox>
+	<textures>
+		<posx>textures/envmap_stormydays/stormydays_rt.tga</posx>
+		<negx>textures/envmap_stormydays/stormydays_lf.tga</negx>
+		<posy>textures/envmap_stormydays/stormydays_up.tga</posy>
+		<negy>textures/envmap_stormydays/stormydays_dn.tga</negy>
+		<posz>textures/envmap_stormydays/stormydays_bk.tga</posz>
+		<negz>textures/envmap_stormydays/stormydays_ft.tga</negz>
+	</textures>
+	<light>
+		<color>e5d09a</color>
+		<ambient>11141a</ambient>
+		<direction>1 -1 0.667</direction>
+	</light>
+</skybox>

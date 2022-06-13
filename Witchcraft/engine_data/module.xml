@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<mod_info>
+	<name>Core</name>
+	<version>0.0.0</version>
+	<author>Haydn "Candlemaster" Harach</author>
+	<description>Contains basic assets required for the engine for function.</description>
+	<category>Other</category>
+	<load_priority>0</load_priority>
+</mod_info>
